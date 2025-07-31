@@ -2,9 +2,8 @@ import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import { RxHamburgerMenu } from "react-icons/rx";
 import { IoMdClose } from "react-icons/io";
-import { CiSearch } from "react-icons/ci";
-import { SidebarData } from './SidebarData';
 import "../../scss/header.scss";
+import { SidebarData } from '../../components/SidebarData';
 
 function Header() {
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);

@@ -1,18 +1,13 @@
-import React from 'react'
 import { FaFacebookF } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
-import { FaPinterest } from "react-icons/fa";
-import { FaGoogle } from "react-icons/fa";
-import { FaLocationDot } from "react-icons/fa6";
 import { FaPhoneAlt } from "react-icons/fa";
 import { SlEnvolopeLetter } from "react-icons/sl";
 import { FaYoutube } from "react-icons/fa";
 import "../../scss/footer.scss";
-import { SidebarData } from "../Header/SidebarData";
 import { FaInstagram } from "react-icons/fa";
-
 import { NavLink } from "react-router-dom";
 import SocialIcon from './SocialIcon';
+import { SidebarData } from '../../components/SidebarData';
 
 function Footer() {
     const socialIcons = [
