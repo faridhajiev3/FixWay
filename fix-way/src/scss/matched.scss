@@ -1,0 +1,48 @@
+.matched-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 0;
+    position: relative;
+}
+
+.matched-step {
+    text-align: center;
+    max-width: 250px;
+}
+.matched-step h4{
+    font-size: 26px;
+    color: #3E7A7E;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+.matched-step p{
+    color: #000000;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+@media (max-width: 1024px) {
+
+    .matched-step {
+        max-width: 200px;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .matched-section {
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .matched-step {
+        max-width: 100%;
+    }
+
+    .matched-step h4 {
+        font-size: 22px;
+    }
+
+}

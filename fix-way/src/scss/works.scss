@@ -1,12 +1,12 @@
 .works {
     text-align: center;
-    padding: 2rem 0;
+    padding: 32px 0;
 }
 
 .works h2 {
     font-size: 40px;
     font-weight: 600;
-    margin: 1.5rem 0 0.5rem 0;
+    margin: 24px 0 8px 0;
     color: #000000;
 }
 
@@ -20,8 +20,8 @@
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    gap: 4rem;
-    padding: 2rem 0;
+    gap: 64px;
+    padding: 32px 0;
     position: relative;
 }
 
@@ -36,26 +36,26 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.5rem;
+    font-size: 24px;
     color: #fff;
     background-color: #51969C;
     border-radius: 10px;
-    margin: 0 auto 1rem auto;
+    margin: 0 auto 16px auto;
 }
 
 .works-step h3 {
-    font-size: 1.25rem;
+    font-size: 20px;
     font-weight: 600;
-    margin-bottom: 0.5rem;
+    margin-bottom: 8px;
 }
 
 .works-step p {
-    font-size: 1rem;
+    font-size: 16px;
     line-height: 1.5;
     color: #666;
 }
 
-/* Line connector */
+
 .works-section::before {
     content: '';
     position: absolute;
@@ -67,10 +67,10 @@
     z-index: -1;
 }
 
-/* Responsive Design */
+
 @media (max-width: 1024px) {
     .works-section {
-        gap: 3rem;
+        gap: 48px;
     }
 
     .works-step {
@@ -78,11 +78,11 @@
     }
 
     .works h2 {
-        font-size: 2rem;
+        font-size: 32px;
     }
 
     .works p {
-        font-size: 1.25rem;
+        font-size: 20px;
     }
 }
 
@@ -90,7 +90,7 @@
     .works-section {
         flex-direction: column;
         align-items: center;
-        gap: 2rem;
+        gap: 32px;
     }
 
     .works-section::before {
@@ -102,38 +102,38 @@
     }
 
     .works h2 {
-        font-size: 1.75rem;
+        font-size: 28px;
     }
 
     .works p {
-        font-size: 1rem;
+        font-size: 16px;
     }
 
     .works-step h3 {
-        font-size: 1.1rem;
+        font-size: 17.6px;
     }
 
     .works-step p {
-        font-size: 0.9rem;
+        font-size: 14.4px;
     }
 }
 
 @media (max-width: 480px) {
     .container {
-        padding: 0 1rem;
+        padding: 0 16px;
     }
 
     .works h2 {
-        font-size: 1.5rem;
+        font-size: 24px;
     }
 
     .works p {
-        font-size: 0.9rem;
+        font-size: 14.4px;
     }
 
     .icon {
         width: 50px;
         height: 50px;
-        font-size: 1.2rem;
+        font-size: 19.2px;
     }
 }

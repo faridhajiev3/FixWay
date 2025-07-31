@@ -1,0 +1,50 @@
+.container {
+
+    .trusted-images {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 16px;
+        margin: 40px 0;
+    }
+
+    .trusted-image {
+        width: 128px;
+        height: 128px;
+        object-fit: cover;
+        border-radius: 12px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .trusted-content {
+        text-align: center;
+        margin: 20px 0;
+    }
+
+    .trusted-title {
+        font-size: 30px;
+        font-weight: 700;
+        color: #1f2937; 
+        margin-bottom: 16px;
+    }
+
+    .trusted-text {
+        color: #4b5563; 
+        max-width: 600px;
+        margin: 0 auto 24px;
+        font-size: 16px;
+        line-height: 1.6;
+    }
+
+    .trusted-button {
+        background-color: #1f2937;
+        color: white;
+        padding: 10px 24px;
+        border-radius: 8px;
+        transition: background-color 0.3s ease;
+
+        &:hover {
+            background-color: #374151; 
+        }
+    }
+}

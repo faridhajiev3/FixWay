@@ -1,0 +1,97 @@
+.footer {
+  background-color: #285053;
+  color: #d1d5db;
+  padding: 64px 0;
+
+  &-container {
+    max-width: 1400px !important;
+    margin: 0 auto;
+    padding: 0 16px;
+  }
+
+  &-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 40px;
+    margin: 0 0 40px 0;
+
+    @media (min-width: 768px) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    @media (min-width: 1024px) {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+
+  &-text {
+    margin-top: 16px;
+    font-size: 18px;
+    color: #9ca3af;
+    line-height: 1.6;
+  }
+
+  .footer-social {
+    margin-top: 24px;
+    display: flex;
+    gap: 12px;
+
+    .social-link {
+      width: 36px;
+      height: 36px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #ffffff;
+      transition: background-color 0.3s;
+
+      &:hover {
+        background-color: #5cb86a;
+      }
+
+      &:focus {
+        outline: none;
+        box-shadow: 0 0 0 2px #040406, 0 0 0 4px #5cb86a;
+      }
+    }
+  }
+
+  &-contact-list,
+  &-links,
+  &-hours {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+    .sidebar-links {
+      font-size: 18px;
+      color: #fff;
+      transition: color 0.3s;
+    }
+
+    .contact-item {
+      font-size: 18px;
+      color: #fff;
+      padding: 5px 0;
+
+      li {
+        padding: 0 0 10px 0;
+      }
+    }
+
+    .openHoursItem {
+      display: flex;
+      align-items: baseline;
+      gap: 5px;
+      font-size: 18px;
+      color: #fff;
+    }
+  }
+
+  .end {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 40px 0 0 0;
+  }
+}

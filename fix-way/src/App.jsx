@@ -6,18 +6,19 @@ import './App.css'
 import HomePage from './pages/Home/HomePage'
 import Header from './layout/header/Header';
 import About from './pages/About/About';
+import Footer from './layout/footer/Footer';
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-    <Header/>
+      <Header />
       <Routes>
         <Route path='/' element={<HomePage />} />
         <Route path='/about' element={<About />} />
       </Routes>
-
+      <Footer />
     </>
   )
 }
