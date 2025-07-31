@@ -1,6 +1,9 @@
 import React from 'react'
 import "../../scss/home.scss"
 import Bringing from './Bringing'
+import Works from './Works'
+import Services from './Services'
+import Platform from './Platform'
 
 function HomePage() {
     return (
@@ -31,6 +34,9 @@ function HomePage() {
                 </div>
             </div>
             <Bringing/>
+            <Works/>
+            <Services/>
+            <Platform/>
         </main>
     )
 }

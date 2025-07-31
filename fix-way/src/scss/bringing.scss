@@ -42,10 +42,11 @@
 .text {
     flex: 1;
     max-width: 600px;
+    text-align: end;
 }
 
 .content h2 {
-    font-size: 2rem;
+    font-size: 40px;
     color: #000000;
     margin-bottom: 1rem;
 }
@@ -53,7 +54,7 @@
 .content p {
     font-size: 1.125rem;
     line-height: 1.6;
-    margin: 1rem 0;
+    margin: 3rem 0;
 }
 
 .outline {

@@ -1,0 +1,139 @@
+.works {
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.works h2 {
+    font-size: 40px;
+    font-weight: 600;
+    margin: 1.5rem 0 0.5rem 0;
+    color: #000000;
+}
+
+.works p {
+    font-size: 42px;
+    font-weight: 400;
+    color: #1C3436;
+}
+
+.works-section {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 4rem;
+    padding: 2rem 0;
+    position: relative;
+}
+
+.works-step {
+    text-align: center;
+    max-width: 250px;
+}
+
+.icon {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    color: #fff;
+    background-color: #51969C;
+    border-radius: 10px;
+    margin: 0 auto 1rem auto;
+}
+
+.works-step h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.works-step p {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #666;
+}
+
+/* Line connector */
+.works-section::before {
+    content: '';
+    position: absolute;
+    top: 30px;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: #51969C;
+    z-index: -1;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .works-section {
+        gap: 3rem;
+    }
+
+    .works-step {
+        max-width: 200px;
+    }
+
+    .works h2 {
+        font-size: 2rem;
+    }
+
+    .works p {
+        font-size: 1.25rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .works-section {
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .works-section::before {
+        display: none;
+    }
+
+    .works-step {
+        max-width: 100%;
+    }
+
+    .works h2 {
+        font-size: 1.75rem;
+    }
+
+    .works p {
+        font-size: 1rem;
+    }
+
+    .works-step h3 {
+        font-size: 1.1rem;
+    }
+
+    .works-step p {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 0 1rem;
+    }
+
+    .works h2 {
+        font-size: 1.5rem;
+    }
+
+    .works p {
+        font-size: 0.9rem;
+    }
+
+    .icon {
+        width: 50px;
+        height: 50px;
+        font-size: 1.2rem;
+    }
+}
