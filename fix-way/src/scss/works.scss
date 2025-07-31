@@ -28,6 +28,7 @@
 .works-step {
     text-align: center;
     max-width: 250px;
+    margin-top: 20px;
 }
 
 .icon {
@@ -38,7 +39,7 @@
     align-items: center;
     font-size: 24px;
     color: #fff;
-    background-color: #51969C;
+    background: linear-gradient(to bottom, #1C3436, #51969C);
     border-radius: 10px;
     margin: 0 auto 16px auto;
 }
