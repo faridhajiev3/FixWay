@@ -29,6 +29,8 @@
     max-width: 600px;
     border-radius: 10px;
     overflow: hidden;
+    transition: all 1s ease;
+    animation: slideInLeft 1s ease forwards;
 }
 
 .image .img {
@@ -41,6 +43,8 @@
     flex: 1;
     max-width: 600px;
     text-align: end;
+    transition: all 1s ease;
+    animation: slideInRight 1s ease forwards;
 }
 
 .content h2 {
@@ -69,6 +73,30 @@
 .outline:hover {
     background-color: #5CB86A;
     color: #fff;
+}
+
+@keyframes slideInLeft {
+    from {
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideInRight {
+    from {
+        transform: translateX(100px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
 }
 
 

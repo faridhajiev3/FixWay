@@ -3,6 +3,7 @@ import phone from "../../assets/phone.jpg"
 import "../../scss/bringing.scss"
 
 function Bringing() {
+    
     return (
         <div className="container">
             <div className="bringing">
@@ -10,7 +11,7 @@ function Bringing() {
                 <p className="slogan">We make repairs faster and easier.</p>
             </div>
             <div className="content">
-                <div className="image">
+                <div  className='image'>
                     <img src={phone} alt="Person using phone" className="img" />
                 </div>
                 <div className="text">

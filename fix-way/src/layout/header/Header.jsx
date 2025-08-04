@@ -14,7 +14,7 @@ function Header() {
 
     return (
         <header className="header">
-            <div className="output container">
+            <div className="output">
                 <div className="logo">
                     <h1>FixWay</h1>
                 </div>
